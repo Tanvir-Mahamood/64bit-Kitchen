@@ -38,7 +38,8 @@ The User Panel is designed for restaurant customers, offering the following func
    - Finally the foods can be placed for checkout and payment can be completed.
 
 4. Order Management
-   - A dedicated Order Page shows the status of current orders and order history.
+   - A dedicated Order Page shows current orders and order history.
+   - Shows order informations (Items, Cost, Order and Response time, Payment Methods, Order status etc).
 
 5. User Profile Management
    - Users can update their profile information, including their contact details, addresses and preferences and password.
@@ -72,14 +73,32 @@ The Admin Panel is designed for the restaurant's management, providing the follo
    - Admin can view messages or feedback sent by users.
 
 6. Transaction Monitoring
-   - A detailed overview of all transactions in the restaurant.
+   - A detailed overview of all transactions in the restaurant are displayed.
 
 7. Admin Management
    - Admin can add additional admin accounts to share management responsibilities.
+   - Admin can observe total earning of the restaurant.
+   - Admin can remove any information of transactions.
 
 8. User Management:
    - Admin can view the registered users.
+   - Admin can remove any registered users.
 
+9. Query:
+   - Admin can make a query based on any criteria including:
+     - User ID
+     - Username
+     - Email
+     - Phone Number
+     - Pyement Method
+     - Payment Statue
+     - Price
+     - Order date
+   - Admin can insert any information and observe the result.
+
+10. PDF:
+    - Observed data from query page can be converted into a PDF which can be downloaded for printing.
+    - Payment amounts are summed.
 
 
 
@@ -119,6 +138,7 @@ The system is primarily divided into two main components:
 | Product page | Display and manage products. |
 | Update Product Page | Update products. |
 | Update Profile Page | Update admin profile. |
+| Query Page | To perform query and download PDF |
 
 ### Image Folder
 - [images](https://github.com/Tanvir-Mahamood/Restaurant-and-Food-Delivery-Website-main/tree/main/images) : Images for website frontend.
@@ -155,6 +175,16 @@ https://github.com/Tanvir-Mahamood/Restaurant-and-Food-Delivery-Website-main.git
 - Start XAMPP:                       Launch XAMPP and ensure Apache and MySQL are running.
 - Access the Forum:                  Open your web browser and navigate to `http://localhost/[your_project_directory]`
 
+
+## ScreenShots
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/user_front.jpg)
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/login.jpg)
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/order.jpg)
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/items.jpg)
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/Cart.jpg)
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/admin.jpg)
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/query.jpg)
+![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/pdf.jpg)
 
 ## Future Enhancements
 - Integrate payment gateways.
