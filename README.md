@@ -5,6 +5,7 @@ This project aims to create a comprehensive online platform for a restaurant, en
 The platform also provides an administrative panel for managing the restaurant's operations, including menu items, orders, and user interactions. 
 The website has two main interfaces: the User Panel and the Admin Panel, each with distinct functionalities to ensure seamless interaction between users and administrators. 
 
+The project is built using PHP with [PDO](https://www.php.net/manual/en/book.pdo.php) for secure and flexible database interactions. Additionally, it includes an advanced query system, allowing admins to retrieve specific data dynamically, and PDF generation using [Dompdf](https://github.com/dompdf/dompdf/releases) for exporting query results.
 
 ## Technologies Used
 1. Frontend:
@@ -175,6 +176,10 @@ https://github.com/Tanvir-Mahamood/Restaurant-and-Food-Delivery-Website-main.git
 - Start XAMPP:                       Launch XAMPP and ensure Apache and MySQL are running.
 - Access the Forum:                  Open your web browser and navigate to `http://localhost/[your_project_directory]`
 
+
+```
+http://localhost/64bit-Kitchen
+```
 
 ## ScreenShots
 ![alt text](https://github.com/Tanvir-Mahamood/64bit-Kitchen/blob/main/ScreenShots/user_front.jpg)
