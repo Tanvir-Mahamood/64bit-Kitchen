@@ -199,6 +199,7 @@ http://localhost/64bit-Kitchen
 - Add multilingual support for a wider audience.
 
 
-
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
 
 
